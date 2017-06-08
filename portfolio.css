@@ -1,0 +1,65 @@
+html{
+  background:url("office.jpg")no-repeat center center fixed;
+  z-index:-1;
+  background-size: cover;
+}
+
+body{
+  font-family: 'Podkova', serif;
+}
+
+h1, h2, h3{
+  text-align: center;
+  color: black;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
+.links {
+  text-align: center;
+}
+
+.links li{
+  color:black;
+  width:100%;
+  border-color: blue;
+  display: inline;
+  margin: 0 8%;
+  font-size: 1.2em;
+  font-weight: 600;
+
+}
+
+.links a:hover{
+  color: #8F8AB4;
+}
+
+.work {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.work p {
+  padding:0 25%;
+  font-size: 1.1em;
+}
+
+.work img{
+  border: 8px solid #636372;
+  border-radius: 6px;
+  margin-bottom: 70px;
+  width: 40vw;
+}
+
+
+footer img{
+  float: right;
+  padding-top: 20px;
+}

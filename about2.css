@@ -1,0 +1,47 @@
+html{
+  background:url("office.jpg")no-repeat center center fixed;
+  z-index:-1;
+  background-size: cover;
+}
+
+h1{
+  text-align: center;
+  color: black;
+}
+
+.description p{
+  text-align: center;
+  position: absolute;
+  margin: 10% 25% 0% 25%;
+  height: 34%;
+  border-color: blue;
+  font-family: 'Podkova', serif;
+  font-size:1.4em;
+  font-weight: 500;
+  background-color: rgba(219,212,219, 0.4);
+}
+
+.links {
+  text-align: center;
+}
+
+.links a{
+  color:black;
+  width:100%;
+  font-family: 'Old Standard TT', serif;
+  display: inline;
+  margin: 0 8%;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.links a:hover{
+  color: #8F8AB4;
+}
+
+footer img{
+  float: right;
+  padding-top: 20px;
+  margin-top:42%;
+}

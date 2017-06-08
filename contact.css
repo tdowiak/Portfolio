@@ -1,0 +1,61 @@
+html{
+  background:url("office.jpg")no-repeat center center fixed;
+  z-index:-1;
+  background-size: cover;
+}
+.links {
+  text-align: center;
+}
+
+h3{
+  color:crimson;
+  width:50%;
+}
+
+.links a{
+  color:black;
+  width:100%;
+  border-color: blue;
+  font-family: 'Old Standard TT', serif;
+  display: inline;
+  margin: 0 8%;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.links a:hover{
+  color: #8F8AB4;
+}
+
+form{
+  margin-left: 30%;
+  margin-top: 2%;
+  font-family: 'Podkova', serif;
+}
+
+.button{
+  margin-top:15px;
+  margin-bottom: 15px;
+	box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	background:-webkit-linear-gradient(top, #dbd4db 5%, #8b878f 100%);
+	background-color:#dbd4db;
+	border-radius:4px;
+	border:1px solid #c584f3;
+	display:block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-shadow:0px 1px 0px #9752cc;
+}
+
+.button:hover{
+  background:-webkit-linear-gradient(bottom, #dbd4db 5%, #8b878f 100%);
+}
+
+
+footer img{
+  float: right;
+}

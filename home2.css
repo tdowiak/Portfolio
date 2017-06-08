@@ -1,0 +1,56 @@
+html{
+  background:url("office.jpg") no-repeat center center fixed;
+  z-index:-1;
+  background-size: cover;
+  /*border-style: solid;
+  border-color: yellow;*/
+}
+
+.words{
+  color:black;
+  width:100%;
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: 5%;
+  /*border-style: solid;
+  border-color: yellow;*/
+  font-family: 'Cinzel', serif;
+}
+
+
+.HomePic{
+  width: 500px;
+  margin: auto;
+  /*border-style: solid;
+  border-color: yellow;*/
+  text-align: center;
+}
+
+h1{
+    font-size:48px;
+}
+
+.links {
+  text-align: center;
+}
+
+.links a{
+  color:black;
+  width:100%;
+  border-color: blue;
+  font-family: 'Old Standard TT', serif;
+  display: inline;
+  margin: 0 8%;
+  font-size: 1.2em;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.links a:hover{
+  color: #33326D;
+}
+
+footer img{
+  float: right;
+  margin-top:14%;
+}
