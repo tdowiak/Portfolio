@@ -3,25 +3,38 @@ html{
   z-index:-1;
   background-size: cover;
 }
+
+body{
+  font-family: 'Podkova', serif;
+
+}
+
+h1, h2, h3{
+  text-align: center;
+  color: black;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
 .links {
   text-align: center;
 }
 
-h3{
-  color:crimson;
-  width:50%;
-}
-
-.links a{
+.links li{
   color:black;
   width:100%;
   border-color: blue;
-  font-family: 'Old Standard TT', serif;
   display: inline;
   margin: 0 8%;
   font-size: 1.2em;
   font-weight: 600;
-  text-decoration: none;
+
 }
 
 .links a:hover{
@@ -29,9 +42,14 @@ h3{
 }
 
 form{
-  margin-left: 30%;
   margin-top: 2%;
   font-family: 'Podkova', serif;
+}
+
+.formContainer {
+  width:36vw;
+  margin: 0 32vw;
+  min-width: 300px;
 }
 
 .button{
@@ -42,7 +60,7 @@ form{
 	background-color:#dbd4db;
 	border-radius:4px;
 	border:1px solid #c584f3;
-	display:block;
+  display: block;
 	color:#ffffff;
 	font-family:Arial;
 	font-size:15px;
@@ -58,4 +76,5 @@ form{
 
 footer img{
   float: right;
+  padding: 12px;
 }
